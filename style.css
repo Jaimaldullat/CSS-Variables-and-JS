@@ -1,0 +1,62 @@
+:root {
+    --base-color: #555;
+    --spacing: 10px;
+    --blur: 0px;
+}
+
+
+/******************/
+
+
+/** Common **/
+
+
+/*****************/
+
+body,
+html {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/******************/
+
+
+/** Controls **/
+
+
+/*****************/
+
+.controls,
+.main {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.controls label {
+    display: inline-block;
+    text-align: right;
+}
+
+
+/******************/
+
+
+/** MAIN IMG **/
+
+
+/*****************/
+
+.main img {
+    background-color: var(--base-color);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    -webkit-filter: blur(var(--blur));
+}
